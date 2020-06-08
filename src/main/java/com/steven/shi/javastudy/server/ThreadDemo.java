@@ -44,8 +44,8 @@ public class ThreadDemo {
             System.out.println("");
         }).start();
         //4、FutureTask +Callable
-        Thread t = new Thread(new FutureTask<String>(new MyCall()));
-        t.start();
+//        Thread t = new Thread(new FutureTask<String>(new MyCall()));
+//        t.start();
 
         //5、通过线程池
         ExecutorService service = Executors.newCachedThreadPool();
